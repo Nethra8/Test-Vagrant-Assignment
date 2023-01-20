@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.testvagrant.tests.TestVagrant" time="2.452" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.testvagrant.tests.TestVagrant" time="2.438" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/netra/Desktop/jan_release/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf9409725742376683915.tmp"/>
+    <property name="classworlds.conf" value="/Users/netra/Desktop/jan_release/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf17726561570592614262.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/netra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -55,6 +55,6 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="com.testvagrant.tests.TestVagrant" name="validateFourForeignPlayers" time="2.398"/>
-  <testcase classname="com.testvagrant.tests.TestVagrant" name="validateWicketKeeperInTeam" time="0.054"/>
+  <testcase classname="com.testvagrant.tests.TestVagrant" name="validateFourForeignPlayers" time="2.386"/>
+  <testcase classname="com.testvagrant.tests.TestVagrant" name="validateWicketKeeperInTeam" time="0.052"/>
 </testsuite>

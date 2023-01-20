@@ -43,5 +43,23 @@ public class TestVagrant {
 
 	        AssertJUnit.assertEquals(foreignPlayerCount,4);
 	    }
+	
+	@Test
+	public void validateWicketKeeperInTeam() throws JSONException {
+		JsonPath pathResponse = new JsonPath(jsonDataString);
+		List<String> roles = pathResponse.getList("player.role");
+		int wicketKeeperCount = 0;
+		for(String playerRole : roles)
+			{
+				if(playerRole.equalsIgnoreCase("Wicket-keeper"))
+					{
+						wicketKeeperCount++;
+						System.out.println("Team has a Wicket-keeper");
+						break;
+					}
+			}
+
+		AssertJUnit.assertEquals(wicketKeeperCount,1);
+	}
 
 }
