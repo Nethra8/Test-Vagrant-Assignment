@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T09:12:43Z" name="com.testvagrant.tests.TestVagrant" finished-at="2023-01-20T09:12:46Z" duration-ms="2485">
+    <groups>
+    </groups>
+    <test started-at="2023-01-20T09:12:43Z" name="Command line test" finished-at="2023-01-20T09:12:46Z" duration-ms="2485">
+      <class name="com.testvagrant.tests.TestVagrant">
+        <test-method signature="validateFourForeignPlayers()[pri:0, instance:com.testvagrant.tests.TestVagrant@3d680b5a]" started-at="2023-01-20T09:12:43Z" name="validateFourForeignPlayers" finished-at="2023-01-20T09:12:46Z" duration-ms="2395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFourForeignPlayers -->
+        <test-method signature="validateWicketKeeperInTeam()[pri:0, instance:com.testvagrant.tests.TestVagrant@3d680b5a]" started-at="2023-01-20T09:12:46Z" name="validateWicketKeeperInTeam" finished-at="2023-01-20T09:12:46Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWicketKeeperInTeam -->
+      </class> <!-- com.testvagrant.tests.TestVagrant -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.testvagrant.tests.TestVagrant -->
+</testng-results>
